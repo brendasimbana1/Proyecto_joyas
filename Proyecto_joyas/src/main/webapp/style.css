@@ -1,0 +1,208 @@
+body {
+	font-family: 'Trebuchet MS';
+	position: relative;
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+	padding-bottom: 50px;
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+
+.titulo {
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 25px;
+	color: #f8f8f8;
+	position: absolute;
+	text-align: center;
+	background-color: rgb(102, 51, 102);
+	width: 100%;
+	height: 100px;
+	top: 0;
+}
+
+.titulo span {
+	font-size: 18px;
+}
+
+.logo{
+	width: 90px;
+	position: absolute;
+	transform: translateY(-370%);
+	margin-left: 700px;
+}
+
+img {
+	margin: 10%;
+	display: block;
+	text-align: center;
+}
+
+h4 {
+	font-size: 20px;
+	color:#330c63;
+	text-align: center;	
+	margin: 20px;
+}
+
+.navega {
+	width: 100%;
+	height: 10%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+
+a {
+	color: #9466D0;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+main {
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer {
+	position: absolute;
+	font-size: 15px;
+	text-align: center;
+	color: #f8f8f8;
+	background-color: #BFBFC3;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.sidebar {
+	background-color: white;
+	padding: 20px;
+	width: 200px;
+	float: right;
+	text-align: center;
+	position: static;
+	display: flex;
+}
+
+.contenedor {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cuadro {
+	width: 400px;
+	height: auto;
+	border: 1px solid;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 10%;
+}
+
+.table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.table th,tr{
+	height: 50px;
+	border-bottom: 1px solid purple;
+}
+
+.table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.form_inicio {
+	width: 400px;
+	background: #D5D5D5;
+	border-radius: 10px;
+	text-align: center;
+	padding: 0 40px;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.form_inicio h2 {
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid silver;
+}
+
+form .username {
+	position: relative;
+	border-bottom: 2px;
+	margin: 30px 0;
+}
+
+.username input {
+	width: 90%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: white;
+	outline: none;
+}
+
+.username select {
+  	width: 90%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: white;
+	outline: none;
+}
+
+.registrarse {
+	margin: 10px;
+}
+
+.boton_enviar {
+	width: 90%;
+	height: 50px;
+	border: 1px solid;
+	background: #663366;
+	border-radius: 25px;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	outline: none;
+}
+
+.boton{
+	width: 190px;
+	background: #663366;
+	border-radius: 25px;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+
+.privado{
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	color: #7e7e7e;
+	text-align: center;
+}
+.factura{
+	border: 1px solid purple;
+	text-align: center;
+}
